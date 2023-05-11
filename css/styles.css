@@ -107,6 +107,10 @@ body {
   align-items: center;
 }
 
+.logo-top {
+  padding: 24px 0;
+}
+
 .menu {
   display: flex;
   align-items: center;
