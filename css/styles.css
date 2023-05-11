@@ -38,8 +38,7 @@ body {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .section {
@@ -114,14 +113,11 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .menu-item {
   padding: 24px 0;
-}
-
-.menu-item:not(:last-child) {
-  margin-right: 40px;
 }
 
 .menu-link {
@@ -130,6 +126,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -146,6 +143,7 @@ body {
 .address-item {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .contact {
@@ -153,10 +151,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-}
-
-.contact-item:not(:last-child) {
-  margin-right: 40px;
 }
 
 .contact:hover,
