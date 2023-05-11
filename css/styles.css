@@ -100,7 +100,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .main-nav {
@@ -108,18 +107,18 @@ body {
   align-items: center;
 }
 
-/* .logo-top {
+.logo-top {
   padding: 24px 0;
-} */
+}
 
 .menu {
   display: flex;
   align-items: center;
 }
 
-/* .menu-item {
+.menu-item {
   padding: 24px 0;
-} */
+}
 
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -140,8 +139,8 @@ body {
 
 .address {
   font-style: normal;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-item {
