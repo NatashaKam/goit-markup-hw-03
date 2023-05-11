@@ -105,13 +105,15 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu {
   display: flex;
   align-items: center;
+}
+
+.menu-item {
+  padding: 24px 0;
 }
 
 .menu-item:not(:last-child) {
@@ -271,7 +273,7 @@ body {
 .team-text {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 /* FOOTER */
